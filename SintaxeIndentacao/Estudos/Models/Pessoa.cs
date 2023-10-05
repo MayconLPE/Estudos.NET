@@ -14,7 +14,7 @@ namespace Models
         //Metodos
         public void Apresentar()
         {
-            Console.WriterLine($"Opa, Meu nome é {Nome}, e tenho {Idade} anos.");
+            Console.WriteLine($"Opa, Meu nome é {Nome}, e tenho {Idade} anos.");
         }
     }
 }
